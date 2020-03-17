@@ -8,7 +8,9 @@
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://jgobeille.github.io/Random-Quote-Generator/",
                 "github_link": "https://github.com/Jgobeille/Random-Quote-Generator",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-3.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-1-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-3.png"
+                ]
 
             },
             {
@@ -18,7 +20,9 @@
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://jgobeille.github.io/list-pagination-and-filtering/",
                 "github_link": "https://github.com/Jgobeille/list-pagination-and-filtering",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-4.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-2-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-4.png"
+                ]
             },
             {
                 "id": 2,
@@ -27,7 +31,9 @@
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript", "jQuery"],
                 "live_link": "https://jgobeille.github.io/Interactive-Form/",
                 "github_link": "https://github.com/Jgobeille/Interactive-Form",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-4.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-3-thumbnail-pic.png"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-4.png"
+                ]
             },
             {
                 "id": 3,
@@ -36,25 +42,52 @@
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Object-Oriented JavaScript Programming"],
                 "live_link": "https://jgobeille.github.io/OOP-Game-Show-app/",
                 "github_link": "https://github.com/Jgobeille/OOP-Game-Show-app",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-4.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-4-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-4.png"
+                ]
             },
             {
                 "id": 4,
                 "project_name": "Mock Employee Directory",
-                "description": "This is a random quote generator I made of one of my favorite series Avatar: The Last Airbender. It will feature quotes from one of the most beloved characters from the show, Uncle Iroh.",
+                "description": "Communicating with APIs allows you to work with microservices and with vast databases to build useful tools and relevant information quickly and easily. You can build utilities, games, infographics, and more. You can also integrate, display, and analyze social media and large data sets without having to create and curate them yourself. The point of this project is to showcase the use of modern asynchronous programming practices when communicating with an API. This project uses the Fetch API and Async/Await to request information from the Randomuser API, then parse that data to be displayed on the web application.",
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Promises", "Fetch API", "Async-Await", "Random User API"],
                 "live_link": "https://jgobeille.github.io/Public-API-Project/",
                 "github_link": "https://github.com/Jgobeille/Public-API-Project",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-5-pic-1.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                ]
             },
             {
                 "id": 5,
                 "project_name": "Podcast Soundboard",
-                "description": "*EXPLICIT* A soundboard for my good buddies podcast: The Bastard Sermon",
+                "description": "*EXPLICIT LANGUAGE* A soundboard for my good buddies podcast: The Bastard Sermon",
                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://jgobeille.github.io/bastardSermonSoundBoard/",
                 "github_link": "https://github.com/Jgobeille/bastardSermonSoundBoard",
-                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-3.png"]
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-6-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                ]
+            },
+            {
+                "id": 6,
+                "project_name": "Printing Company and Shopify e-commerce Website ",
+                "description": "This is a website I made for a client who wanted an informational site on his printing company. Also, I created a Shopify e-commerce website for him to sell his products on. The website is built on Node.js and the e-commerce site is built using the Shopify e-commerce platform. One of the hardest challenges was to take thousands of items from his suppliers catalogs and reformat the data into something the Shopify e-commerce platform could parse and display. Using Google Sheets functions, I could take data from multiple sheets and reformat them into something Shopify could accept",
+                "technologies": ["HTML", "CSS", "Node.js", "Shopify", "Google Sheets functions"],
+                "live_link": "https://www.advancedprintsolutions.net/",
+                "github_link": "https://github.com/Jgobeille/AdvancedPrintSolutions",
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-7-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                ]
+            },
+            {
+                "id": 7,
+                "project_name": "Ugali Youth Charity Website",
+                "description": "This is a charity site that I did not personally build, but have taken the responsibility to maintain and make additions to. Using HTML and CSS I have added new pages and made stylistic changes to the website. I have also made content such as logos and edited images for the website. I am also one of the board members for the organization where I help the founder with day to day operations",
+                "technologies": ["HTML", "CSS", "WordPress CMS", "WordPress Plugins"],
+                "live_link": "https://ugaliyouth.org/",
+                "image_Urls": [
+                    ["static/images/thumbnail_photos/project-8-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                ]
             }
         ]
     }

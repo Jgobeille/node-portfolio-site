@@ -12,40 +12,14 @@ app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
-const { data } = require('./data.json');
+// routes
 
-const { projects } = data;
-
-// Routes
-
-app.get('/', (_req, res) => {
-  res.render('index', { projects });
-  // console.dir(projects);
-});
-
-app.get('/about', (_req, res) => {
-  res.render('about');
-});
-
-app.get('/project/:id', (req, res) => {
-  const { id } = req.params;
-  const project = projects[id];
-  res.render('project', { project });
-});
-
-// 404 Page
-app.use((_req, _res, next) => {
-  const err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
-
-app.use((err, req, res, next) => {
-  res.locals.error = err;
-  if (err.status >= 100 && err.status < 600) res.status(err.status);
-  else res.status(500);
-  res.render('error');
-});
+const mainRoutes = require('./routes');
+const errorRoute = require('./routes/error');
+// main routes
+app.use(mainRoutes);
+// error route
+app.use(errorRoute);
 
 // App listen on Port 3000
 app.listen(3000, () => {
