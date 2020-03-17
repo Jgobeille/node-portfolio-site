@@ -16,7 +16,8 @@ const { data } = require('./data.json');
 
 const { projects } = data;
 
-//Routes
+// Routes
+
 app.get('/', (req, res) => {
   res.render('index', { projects });
   // console.dir(projects);
@@ -26,11 +27,13 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/projects/:id', (req, res) => {
-  res.render('');
+app.get('/project/:id', (req, res) => {
+  const { id } = req.params;
+  const project = projects[id];
+  res.render('project', { project });
 });
 
-//404 Page
+// 404 Page
 // app.use((req, res, next) => {
 //   const err = new Error("Not Found");
 //   err.status = 404;
@@ -44,7 +47,7 @@ app.get('/projects/:id', (req, res) => {
 //   res.render("error");
 // });
 
-//   process.env.PORT, process.env.IP
+// App listen on Port 3000
 app.listen(3000, () => {
   console.log('The app has started!');
 });
