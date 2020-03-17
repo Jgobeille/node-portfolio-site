@@ -1,0 +1,61 @@
+{
+    "data": {
+        "title": "Project Data",
+        "projects": [{
+                "id": 0,
+                "project_name": "Random Quote Generator",
+                "description": "This is a random quote generator I made of one of my favorite series Avatar: The Last Airbender. It will feature quotes from one of the most beloved characters from the show, Uncle Iroh.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                "live_link": "https://jgobeille.github.io/Random-Quote-Generator/",
+                "github_link": "https://github.com/Jgobeille/Random-Quote-Generator",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-3.png"]
+
+            },
+            {
+                "id": 1,
+                "project_name": "List Pagination and Filtering",
+                "description": "This project uses a common web development technique known as pagination to enhance the usability of a web page. It starts with a page that contains a list of 54 student names, photos and email addresses. Using JavaScript,the project displays 10 names at a time, and adds a navigation system -- a series of links at the bottom of the page -- to let users click through the other student entries, 10 at a time.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                "live_link": "https://jgobeille.github.io/list-pagination-and-filtering/",
+                "github_link": "https://github.com/Jgobeille/list-pagination-and-filtering",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-4.png"]
+            },
+            {
+                "id": 2,
+                "project_name": "Metal Concert Sign-Up Form",
+                "description": "This is the third project in the Team Treehouse Full-Stack JavaScript Tech Degree. In this project, we were tasked with making an Interactive form using HTML, CSS, and a mix of vanilla JS and the popular jQuery library. The project represents a now defunct Metal concert from Ohio. This is a mock sign-up form to buy tickets online",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript", "jQuery"],
+                "live_link": "https://jgobeille.github.io/Interactive-Form/",
+                "github_link": "https://github.com/Jgobeille/Interactive-Form",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-4.png"]
+            },
+            {
+                "id": 3,
+                "project_name": "Quote Guessing Game",
+                "description": "This is a quote guessing game based on one of my favorite video games, `Kingdom Hearts`. This project uses Object-Oriented Programming as a way to better organize code using classes and methods to be more readable and accessible. Using JavaScript, I created two JavaScript classes with specific properties and methods. I created a Game class for managing the game, and a Phrase class to help with creating an array of Phrase objects.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Object-Oriented JavaScript Programming"],
+                "live_link": "https://jgobeille.github.io/OOP-Game-Show-app/",
+                "github_link": "https://github.com/Jgobeille/OOP-Game-Show-app",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-4.png"]
+            },
+            {
+                "id": 4,
+                "project_name": "Mock Employee Directory",
+                "description": "This is a random quote generator I made of one of my favorite series Avatar: The Last Airbender. It will feature quotes from one of the most beloved characters from the show, Uncle Iroh.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Promises", "Fetch API", "Async-Await", "Random User API"],
+                "live_link": "https://jgobeille.github.io/Public-API-Project/",
+                "github_link": "https://github.com/Jgobeille/Public-API-Project",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"]
+            },
+            {
+                "id": 5,
+                "project_name": "Podcast Soundboard",
+                "description": "*EXPLICIT* A soundboard for my good buddies podcast: The Bastard Sermon",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                "live_link": "https://jgobeille.github.io/bastardSermonSoundBoard/",
+                "github_link": "https://github.com/Jgobeille/bastardSermonSoundBoard",
+                "image_Urls": ["https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-3.png"]
+            }
+        ]
+    }
+}

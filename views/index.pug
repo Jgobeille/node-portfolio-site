@@ -5,11 +5,11 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Heading
+      h1 Full-Stack Web Developer in Japan - 一緒に仕事をしましょう！
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | Portfolio Description
+        | Welcome to my Portfolio page! I have worked on a large range of different projects both personally for myself and my friends projects and professionally for both businesses and charities. Professionally, I have handled designing of a website to also creating its functionality. These projects highlight my various skills such as technical understanding of both front-end and back-end code, maintaining websites, soft-skills(communication with clients and planning of a project), design, and the ability to learn new new skills and progressively improve upon those skills.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
@@ -19,9 +19,9 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like. 
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
+      each project in projects
+        .cell
+          a(href='#')
+            img.thumbnail(src= project.image_Urls[0])
+            h5 #{project.project_name}
       
