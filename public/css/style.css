@@ -1,3 +1,17 @@
+/* CSS Vars */
+
+:root {
+  --main-bg-color: #323330;
+  --other-main-bg-color: #fff;
+  --dark-gray: #50514F;
+  --highlight-color: #F0DB4F;
+  --red: #B0413E;
+  --lato-font: Lato, sans-serif;
+  --reg-margin-bottom: margin-bottom: 20px;
+
+}
+
+
 h1,
 h2,
 h3,
@@ -50,11 +64,21 @@ a:hover {
   color: #111;
 }
 
+
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  z-index: 2;
+  position: relative;
+}
+
 .image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px var(--border-color);
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -62,8 +86,8 @@ a:hover {
 
 .portfolio-me {
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: var(--main-bg-color);
+  color: #FFF2F1;
   box-shadow: none !important;
 }
 
@@ -103,12 +127,17 @@ a:hover {
 
 .portfolio-intro {
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 100px 50px 30px;
 }
 
 .portfolio-intro p {
-  border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
+}
+
+.portfolio-intro h1 {
+  color: var(--main-bg-color);
+  font-family: var(--lato-font);
+  margin-bottom: 40px;
 }
 
 .portfolio-index {
@@ -116,8 +145,13 @@ a:hover {
   padding: 10px 50px;
 }
 
-.portfolio-index .thumbnail {
-  margin-bottom: 5px;
+
+
+#my-info>div>div.cell.shrink>img {
+  border: solid 4px #F0DB4F;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+
 }
 
 .portfolio-index a {
@@ -128,8 +162,17 @@ a:hover {
   margin-bottom: 15px;
 }
 
+
+
+
+
+
 .portfolio-index .cell h5 {
   letter-spacing: 1px;
+  font-family: var(--lato-font);
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-gray);
 }
 
 .portfolio-meta {
@@ -153,11 +196,16 @@ a:hover {
   line-height: 25px;
 }
 
+.portfolio-bio h3 {
+
+  color: var(--dark-gray);
+}
+
 .heart {
   height: 1px;
   width: 1px;
   display: inline-block;
-  color: red;
+  color: #D81159;
   animation: heartbeat 1s infinite;
 }
 
@@ -169,6 +217,9 @@ a:hover {
 .special-p {
   padding-bottom: 0px !important;
 }
+
+
+/* Key Frames */
 
 /* 
 Pulsating Heart: HOW TO
@@ -196,5 +247,55 @@ https://stackoverflow.com/questions/34762009/pulsing-heart-css-animation */
 
   100% {
     transform: scale(.75);
+  }
+}
+
+/* Float */
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1.0);
+    transform: translatey(0px);
+  }
+
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(-20px);
+  }
+
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    transform: translatey(0px);
+  }
+}
+
+@media(min-width: 500px) {
+  #my-info>div>div.cell.shrink>img {
+    animation: float 6s ease-in-out infinite
+  }
+
+  .grid-x:hover .cell:not(:hover) {
+    filter: opacity(80%);
+  }
+}
+
+@media(min-width: 800px) {
+
+  .portfolio-index figure {
+    overflow: hidden;
+  }
+
+  .portfolio-index .cell .thumbnail {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  /* Zoom In #1 */
+
+  .portfolio-index .cell figure:hover .thumbnail {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
   }
 }

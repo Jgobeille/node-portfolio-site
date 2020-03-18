@@ -19,6 +19,15 @@ screen and (min-width: 40em) {
   }
 }
 
+:root {
+  --main-bg-color: #323330;
+  --other-main-bg-color: #E0E2DB;
+  --border-color: #50514F;
+  --highlight-color: #F0DB4F;
+  --red: #B0413E;
+
+}
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
@@ -506,7 +515,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background: var(--highlight-color);
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -5801,6 +5810,11 @@ screen and (min-width: 64em) {
   content: '';
 }
 
+.menu-icon:hover {
+  transform: rotate(-360deg);
+  transition: transform 1s;
+}
+
 .menu-icon:hover::after {
   background: #cacaca;
   box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
@@ -7800,11 +7814,13 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .thumbnail {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 1rem;
-  border: solid 4px #fefefe;
-  border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+}
+
+figure {
+  border: solid 4px var(--border-color);
+  border-radius: 0;
 }
 
 a.thumbnail {
@@ -7821,8 +7837,9 @@ a.thumbnail image {
 }
 
 .title-bar {
+  z-index: 5;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: var(--main-bg-color);
   color: #fefefe;
   display: -ms-flexbox;
   display: flex;
@@ -7830,11 +7847,28 @@ a.thumbnail image {
   justify-content: flex-start;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
+  position: fixed;
+
 }
+
+.logo:hover+.title-bar-title {
+  z-index: 1;
+  visibility: visible;
+  transform: translateX(20px);
+  transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s;
+}
+
+.logo:not(:hover)+.title-bar-title {
+  z-index: 1;
+  transform: translateX(-33%);
+  transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s;
+}
+
 
 .title-bar .menu-icon {
   margin-left: 0.25rem;
-  margin-right: 0.25rem;
+  margin-right: 0.75rem;
 }
 
 .title-bar-left,
@@ -7848,10 +7882,17 @@ a.thumbnail image {
 }
 
 .title-bar-title {
+  font-family: Lato, sans-serif;
+  z-index: 1;
   display: inline-block;
   vertical-align: middle;
   font-weight: bold;
+  transform: translate3d(-100%, 0px, 0px);
+  visibility: hidden;
+  font-size: 1.4em;
+  letter-spacing: 2px;
 }
+
 
 .has-tip {
   position: relative;
