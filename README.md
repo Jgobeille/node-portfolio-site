@@ -120,9 +120,9 @@ block content
 ---
 
 ![Image description](public/images/portfolio-image-1.png)
-![Image description](static/images/portfolio-image-2.png)
-![Image description](static/images/portfolio-image-3.png)
-![Image description](static/images/portfolio-image-4.png)
+![Image description](public/images/portfolio-image-2.png)
+![Image description](public/images/portfolio-image-3.png)
+![Image description](public/images/portfolio-image-4.png)
 
 ## Style Changes
 
