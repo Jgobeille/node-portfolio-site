@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
 
 const { data } = require('./data.json');
@@ -44,5 +43,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log('The app has started!');
 });
-
-module.exports = projects;
