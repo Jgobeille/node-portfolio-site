@@ -15,7 +15,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'no-console': 'off',
-    'linebreak-style': 0
-    // "prettier/prettier": ["error"]
+    'linebreak-style': 0,
+    'prettier/prettier': ['error']
   }
 };

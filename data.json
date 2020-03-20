@@ -9,7 +9,7 @@
                 "live_link": "https://jgobeille.github.io/Random-Quote-Generator/",
                 "github_link": "https://github.com/Jgobeille/Random-Quote-Generator",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-1-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-3.png"
+                    ["static/images/thumbnail_photos/project-1-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-1-Images/project-1-pic-3.png"
                 ]
 
             },
@@ -21,7 +21,7 @@
                 "live_link": "https://jgobeille.github.io/list-pagination-and-filtering/",
                 "github_link": "https://github.com/Jgobeille/list-pagination-and-filtering",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-2-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-4.png"
+                    ["static/images/thumbnail_photos/project-2-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-2-Images/project-2-pic-4.png"
                 ]
             },
             {
@@ -32,7 +32,7 @@
                 "live_link": "https://jgobeille.github.io/Interactive-Form/",
                 "github_link": "https://github.com/Jgobeille/Interactive-Form",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-3-thumbnail-pic.png"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-4.png"
+                    ["static/images/thumbnail_photos/project-3-thumbnail-pic.png"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-3-Images/project-3-pic-4.png"
                 ]
             },
             {
@@ -43,7 +43,7 @@
                 "live_link": "https://jgobeille.github.io/OOP-Game-Show-app/",
                 "github_link": "https://github.com/Jgobeille/OOP-Game-Show-app",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-4-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-4.png"
+                    ["static/images/thumbnail_photos/project-4-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-4-Images/project-4-pic-4.png"
                 ]
             },
             {
@@ -54,7 +54,7 @@
                 "live_link": "https://jgobeille.github.io/Public-API-Project/",
                 "github_link": "https://github.com/Jgobeille/Public-API-Project",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-5-pic-1.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                    ["static/images/thumbnail_photos/project-5-pic-1.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
                 ]
             },
             {
@@ -65,7 +65,7 @@
                 "live_link": "https://jgobeille.github.io/bastardSermonSoundBoard/",
                 "github_link": "https://github.com/Jgobeille/bastardSermonSoundBoard",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-6-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                    ["static/images/thumbnail_photos/project-6-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Soundboard-Project-Images/soundboard-pic-3.png"
                 ]
             },
             {
@@ -76,7 +76,7 @@
                 "live_link": "https://www.advancedprintsolutions.net/",
                 "github_link": "https://github.com/Jgobeille/AdvancedPrintSolutions",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-7-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                    ["static/images/thumbnail_photos/project-7-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-5.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-6.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-7.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Print-website-pics/printsite-pic-8.png"
                 ]
             },
             {
@@ -86,7 +86,7 @@
                 "technologies": ["HTML", "CSS", "WordPress CMS", "WordPress Plugins"],
                 "live_link": "https://ugaliyouth.org/",
                 "image_Urls": [
-                    ["static/images/thumbnail_photos/project-8-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/Unit-5-Images/project-5-pic-5.png"
+                    ["static/images/thumbnail_photos/project-8-thumbnail-pic.jpg"], "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/ugali-youth/charity-pic-1.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/ugali-youth/charity-pic-2.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/ugali-youth/charity-pic-3.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/ugali-youth/charity-pic-4.png", "https://treehouseproject.s3.amazonaws.com/Unit+6+Images/ugali-youth/charity-pic-5.png"
                 ]
             }
         ]

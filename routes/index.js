@@ -19,17 +19,19 @@ router.get('/', (_req, res) => {
 
 // About Page
 router.get('/about', (_req, res) => {
-  res.render('about', { projects });
+  res.locals.projects = projects;
+  res.render('about', projects);
 });
 
 // Each Project Page
 router.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
+  res.locals.projects = projects;
   const project = projects[id];
   if (project) {
     res.render('project', { projects, project });
   } else {
-    const err = new Error('Page Not Found'); //create 404 status error
+    const err = new Error('Page Not Found');
     err.statusCode = 404;
     next(err);
   }
