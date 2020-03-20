@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint app.js",
     "start": "node app.js"
-
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,7 @@
     "url": "https://github.com/Jgobeille/node-portfolio-site/issues"
   },
   "homepage": "https://github.com/Jgobeille/node-portfolio-site#readme",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.19.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
