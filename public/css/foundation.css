@@ -7861,7 +7861,7 @@ a.thumbnail image {
 
 .logo:not(:hover)+.title-bar-title {
   z-index: 1;
-  transform: translateX(-33%);
+  transform: translateX(-27%);
   transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s;
 }
 
@@ -7890,7 +7890,7 @@ a.thumbnail image {
   transform: translate3d(-100%, 0px, 0px);
   visibility: hidden;
   font-size: 1.4em;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 

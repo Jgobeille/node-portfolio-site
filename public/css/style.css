@@ -99,8 +99,8 @@ a:hover {
 .portfolio-me a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: #555;
-  font-size: 13px;
+  color: #fff;
+  font-size: 12px;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -138,6 +138,7 @@ a:hover {
   color: var(--main-bg-color);
   font-family: var(--lato-font);
   margin-bottom: 40px;
+  font-weight: 900;
 }
 
 .portfolio-index {
@@ -197,7 +198,7 @@ a:hover {
 }
 
 .portfolio-bio h3 {
-
+  text-transform: uppercase;
   color: var(--dark-gray);
 }
 
@@ -218,6 +219,27 @@ a:hover {
   padding-bottom: 0px !important;
 }
 
+.link {
+  color: #D81159;
+  font-weight: bold;
+}
+
+.youtube-channels li {
+  font-size: 24px;
+}
+
+.projects-list {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.projects {
+  margin: 10px 0 10px 0;
+}
+
+.error_message {
+  margin-top: 50px;
+}
 
 /* Key Frames */
 
@@ -274,7 +296,7 @@ https://stackoverflow.com/questions/34762009/pulsing-heart-css-animation */
     animation: float 6s ease-in-out infinite
   }
 
-  .grid-x:hover .cell:not(:hover) {
+  .portfolio-index:hover .cell:not(:hover) {
     filter: opacity(80%);
   }
 }

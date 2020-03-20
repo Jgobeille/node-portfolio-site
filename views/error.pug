@@ -1,8 +1,12 @@
 extends layout.pug
 
 block content
-    section
-    h1= `${error.message} - Status: ${error.status}`
-    
-    a.button(href='/') Go Home
-    h4= error.stack            
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1.error_message= `${error.message} - Status: ${error.statusCode}`
+        p= error.stack
+        nav.grid-container.portfolio-breadcrumb
+            a(href='/') ← Back            

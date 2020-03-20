@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
+const { data } = require('./data.json');
+
+const { projects } = data;
+
 app.use(
   bodyParser.urlencoded({
     extended: false
@@ -15,11 +19,23 @@ app.set('view engine', 'pug');
 // routes
 
 const mainRoutes = require('./routes');
-const errorRoute = require('./routes/error');
 // main routes
 app.use(mainRoutes);
-// error route
-app.use(errorRoute);
+
+app.use((_req, _res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// eslint-disable-next-line no-unused-vars
+app.use((err, _req, res, _next) => {
+  res.locals.error = err;
+  if (err.status >= 100 && err.status < 600) res.status(err.status);
+  else res.status(500);
+  console.log(err);
+  res.render('error', { projects });
+});
 
 // App listen on Port 3000
 app.listen(3000, () => {
