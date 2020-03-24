@@ -18,23 +18,16 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/static/images/profile_pic.jpg')
           .cell.auto
 
-            //- Add your name here.
             h5 Jamie Gobeille
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
               | Full-stack JavaScript Developer from Cincinnati, Ohio living in Nagoya, Japan. 
               |<div class= "heart">&#10084</div> <p class=heart-text>of all things code, Japan, and beer. My dream is to become a javaScript wizard. A man can dream...</p>
 
-            //- Add about page route to the href below.
             a(href='/') Home → 
             br
             a(href='/about') Learn More →
 
-            h4.projects PROJECTS
-            each project in projects
-              a.projects-list(href=`/project/${project.id}`) #{project.project_name}
-              br
               
 
     .off-canvas-content(data-off-canvas-content='')
@@ -42,8 +35,7 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
-          //- img.logo(src="static/images/JG-JS-logo.svg") 
+ 
           img.logo(src="../static/images/JG.png")
           span.title-bar-title JAMIE GOBEILLE
           
