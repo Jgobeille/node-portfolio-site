@@ -30,12 +30,11 @@ app.use((_req, _res, next) => {
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, _req, res, _next) => {
-  res.locals.projects = projects;
   res.locals.error = err;
   if (err.status >= 100 && err.status < 600) res.status(err.status);
   else res.status(500);
   console.log(err);
-  res.render('error', projects);
+  res.render('error');
 });
 
 // App listen on Port 3000
