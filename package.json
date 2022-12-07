@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/Jgobeille/node-portfolio-site#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "nodemon": "^2.0.2",
     "pug": "^2.0.4"
   }
